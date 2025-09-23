@@ -31,6 +31,15 @@ import Navbar from '@/components/Navbar.vue';
                 <img src="../assets/logo.png" alt="Logo" class="imgLogo">
             </div>
         </div>
+        <div class="containerFondoYTitle">
+            <div class="title">NUESTROS PRODUCTOS</div>
+        </div>
+        <div class="sectionFondo">
+          <div class="contenidoFondo">
+            <h2>AREPAS</h2>
+            <p>Aquí puedes poner más texto, imágenes o componentes.</p>
+          </div>
+        </div>
     </div>
 </template>
 
@@ -57,7 +66,7 @@ import Navbar from '@/components/Navbar.vue';
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 34px 90px 0px 80px;
+    margin: 34px 90px 80px 80px;
 }
 
 .imgLogo {
@@ -87,6 +96,71 @@ import Navbar from '@/components/Navbar.vue';
 
 .textos {
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.containerFondoYTitle {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-image: url('../assets/arepas-fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFondoYTitle::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  position: relative;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+h2 {
+  font-family: 'Karantina', cursive;
+  color: yellow;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: black;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sectionFondo {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  background-image: url('@/assets/fondo-principal.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.sectionFondo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.contenidoFondo {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
 }
 
 </style>
