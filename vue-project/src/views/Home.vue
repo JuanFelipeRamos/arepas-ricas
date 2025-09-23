@@ -1,5 +1,6 @@
 <script setup>
 import Navbar from '@/components/Navbar.vue';
+import Footer from '@/components/Footer.vue';
 
 </script>
 
@@ -35,11 +36,24 @@ import Navbar from '@/components/Navbar.vue';
             <div class="title">NUESTROS PRODUCTOS</div>
         </div>
         <div class="sectionFondo">
-          <div class="contenidoFondo">
-            <h2>AREPAS</h2>
-            <p>Aquí puedes poner más texto, imágenes o componentes.</p>
-          </div>
+            <div class="contenidoFondo">
+              <h2>AREPAS</h2>
+            </div>
+            <hr>
+            <p class="txtProduct">
+                Nuestras arepas son el sabor que acompaña cada momento del día: crujientes por fuera, suaves por dentro y siempre listas para conquistar tu paladar.
+            </p>
+            <p class="verProducts">Ver arepas</p>
+            <div class="contenidoFondo">
+              <h2>BOLLOS</h2>
+            </div>
+            <hr>
+            <p class="txtProduct">
+                El verdadero sabor de la tradición costeña. Nuestros bollos, envueltos con amor y hechos de maíz fresco, son el toque perfecto para recordar la cocina de casa en cada bocado.
+            </p>
+            <p class="verProducts">Ver bollos</p>
         </div>
+        <Footer />
     </div>
 </template>
 
@@ -138,14 +152,13 @@ h2 {
 .sectionFondo {
   position: relative;
   width: 100%;
-  min-height: 400px;
+  min-height: 607px;
   background-image: url('/fondo-principal.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 40px;
+  flex-direction: column;
 }
 
 .sectionFondo::before {
@@ -156,11 +169,33 @@ h2 {
   z-index: 0;
 }
 
+.sectionFondo > * {
+  position: relative;
+  z-index: 1;
+}
+
 .contenidoFondo {
   position: relative;
   z-index: 1;
   color: white;
-  text-align: center;
+}
+
+.txtProduct {
+    font-size: 18px;
+}
+
+hr {
+    width: 100%;
+    background-color: white;
+    height: 2px;
+    border: none;
+    margin-bottom: 13px;
+}
+
+.verProducts {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 
 </style>
