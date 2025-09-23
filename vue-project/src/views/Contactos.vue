@@ -20,12 +20,12 @@ import Footer from '@/components/Footer.vue';
                         <p class="redSocial">    
                             <strong>Whatsapp:</strong> +57 3215383005    
                         </p>    
-                        <a class="enlace" href="https://www.instagram.com/ar    epa223    8?utm_source=qr&    igsh=MmFwb2hnNmFlanI0" target="_blank">
+                        <a class="enlace" href="https://www.instagram.com/arepa2238?utm_source=qr&igsh=MmFwb2hnNmFlanI0" target="_blank">
                             <p class="redSocial">    
                                 <strong>Instagram:</strong> @arepa2238    
                             </p>    
                         </a>    
-                        <a class="enlace" href="https://www.facebook.com/sha    re/1Ciucq2B6K/"     target="_blank">
+                        <a class="enlace" href="https://www.facebook.com/share/1Ciucq2B6K/" target="_blank">
                             <p class="redSocial">    
                                 <strong>Facebook:</strong> Arepas Ricas    
                             </p>    

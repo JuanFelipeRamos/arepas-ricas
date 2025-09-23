@@ -43,7 +43,7 @@ import Footer from '@/components/Footer.vue';
             <p class="txtProduct">
                 Nuestras arepas son el sabor que acompaña cada momento del día: crujientes por fuera, suaves por dentro y siempre listas para conquistar tu paladar.
             </p>
-            <p class="verProducts">Ver arepas</p>
+            <router-link to="/ListaArepas"><p class="verProducts">Ver arepas</p></router-link>
             <div class="contenidoFondo">
               <h2>BOLLOS</h2>
             </div>
@@ -116,7 +116,7 @@ import Footer from '@/components/Footer.vue';
   position: relative;
   width: 100%;
   height: 200px;
-  background-image: url('../assets/arepas-fondo.jpg');
+  background-image: url('../assets/arepasFondo.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -196,6 +196,18 @@ hr {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 40px;
+    transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.verProducts:hover {
+  color: rgb(126, 106, 7);
+  font-size: 18px;
+  margin-bottom: 43px;
 }
 
 </style>
