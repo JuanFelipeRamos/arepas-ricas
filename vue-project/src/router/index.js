@@ -6,6 +6,7 @@ import Footer from '@/components/Footer.vue'
 import SobreNosotros from '@/views/SobreNosotros.vue'
 import TarjetaProducto from '@/components/TarjetaProducto.vue'
 import ListaArepas from '@/views/ListaArepas.vue'
+import ListaBollos from '@/views/ListaBollos.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -51,6 +52,12 @@ const router = createRouter({
       path: '/ListaArepas',
       name: 'listaarepas',
       component: ListaArepas,
+    },
+
+    {
+      path: '/ListaBollos',
+      name: 'listabollos',
+      component: ListaBollos,
     },
 
   ],

@@ -1,7 +1,8 @@
 <script setup>
 import TarjetaProducto from '@/components/TarjetaProducto.vue';
-import arepasSimple from '../assets/arepasSimple.jpg';
-import arepasQueso from '../assets/arepasQueso.jpg';
+import bollos from '../assets/bollos.jpg';
+import aguaMaiz from '../assets/aguaMaiz.jpg';
+import masa from '../assets/masa.jpg'
 import Footer from '@/components/Footer.vue';
 
 </script>
@@ -11,12 +12,13 @@ import Footer from '@/components/Footer.vue';
     <div>
         <div class="sectionFondo">
             <div class="contenidoFondo">
-              <h2>AREPAS</h2>
+              <h2>BOLLOS, AGUA DE MAÍZ Y MASAS</h2>
             </div>
             <hr>
             <div class="containerTarjetas">
-                <TarjetaProducto :imageUrl="arepasSimple" name="Arepa simple" precio="5 x $3,000" />
-                <TarjetaProducto :imageUrl="arepasQueso" name="Arepa de queso" precio="5 x $6,000" />
+                <TarjetaProducto :imageUrl="bollos" name="Bollo de maíz" precio="5 x $4,000" />
+                <TarjetaProducto :imageUrl="aguaMaiz" name="Agua de maíz" precio="$3,000" />
+                <TarjetaProducto :imageUrl="masa" name="Masa" precio="$3,000" />
             </div>
         </div>
         <Footer />

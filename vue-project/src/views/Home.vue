@@ -45,13 +45,14 @@ import Footer from '@/components/Footer.vue';
             </p>
             <router-link to="/ListaArepas"><p class="verProducts">Ver arepas</p></router-link>
             <div class="contenidoFondo">
-              <h2>BOLLOS</h2>
+              <h2>BOLLOS Y MÁS</h2>
             </div>
             <hr>
             <p class="txtProduct">
                 El verdadero sabor de la tradición costeña. Nuestros bollos, envueltos con amor y hechos de maíz fresco, son el toque perfecto para recordar la cocina de casa en cada bocado.
+                Y junto con ellos, un par de produtos más.
             </p>
-            <p class="verProducts">Ver bollos</p>
+            <router-link to="/ListaBollos"><p class="verProducts">Ver bollos y otros produtos</p></router-link>
         </div>
         <Footer />
     </div>
@@ -197,6 +198,7 @@ hr {
     font-size: 20px;
     margin-bottom: 40px;
     transition: 0.3s;
+    color: rgb(223, 209, 129);
 }
 
 a {
