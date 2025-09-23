@@ -139,7 +139,7 @@ h2 {
   position: relative;
   width: 100%;
   min-height: 400px;
-  background-image: url('@/assets/fondo-principal.jpg');
+  background-image: url('/fondo-principal.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
