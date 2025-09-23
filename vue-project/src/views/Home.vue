@@ -1,18 +1,16 @@
 <script setup>
+import Navbar from '@/components/Navbar.vue';
+
 </script>
 
 
 <template>
     <div class="container">
-        <h1>Arepas ricas</h1>
+        <Navbar />
     </div>
 </template>
 
 
 <style scoped>
-
-h1 {
-    color: white;
-}
 
 </style>
