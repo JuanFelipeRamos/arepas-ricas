@@ -9,9 +9,9 @@
         </div>
         <div class="right">
             <ul>
-                <li>INICIO</li>
-                <li id="sobreNos">SOBRE NOSOTROS</li>
-                <li id="contact">CONTÁCTANOS</li>
+                <router-link to="/"><li>INICIO</li></router-link>
+                <router-link to="/SobreNosotros"><li id="contact">SOBRE NOSOTROS</li></router-link>
+                <router-link to="/Contactos"><li id="contact">CONTÁCTANOS</li></router-link>
             </ul>
         </div>
     </div>
@@ -48,16 +48,16 @@ li {
 }
 
 li:hover {
-    font-size: 21px;
+    font-size: 22px;
     color: rgb(126, 106, 7);
 }
 
 #sobreNos:hover {
-    margin-left: 68px;
+    margin-left: 59px;
 }
 
 #contact:hover {
-    margin-left: 65px;
+    margin-left: 58px;
 }
 
 .left {
@@ -69,6 +69,11 @@ li:hover {
     justify-content: center;
     align-items: center;
     margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 </style>
