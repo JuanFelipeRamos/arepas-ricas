@@ -73,4 +73,56 @@ h1, p {
     margin-bottom: 29px;
 }
 
+/* Responsividad */
+@media (max-width: 1024px) {
+  .title h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    padding: 0 20px;
+  }
+
+  .parrafo {
+    padding: 0 25px;
+  }
+
+  .parrafo p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0 15px;
+  }
+
+  .parrafo {
+    padding: 0 20px;
+  }
+
+  .parrafo p {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title h1 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 0 10px;
+  }
+
+  .parrafo {
+    padding: 0 15px;
+  }
+
+  .parrafo p {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+}
+
 </style>

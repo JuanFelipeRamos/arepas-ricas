@@ -76,4 +76,36 @@ a {
     color: white;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .left {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .right {
+    margin-right: 0;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+}
+
 </style>

@@ -42,7 +42,7 @@ defineProps({
 
 .container:hover {
     width: 237px;
-    background-color: rgba(126, 106, 7, 0.733);
+    background-color: rgba(185, 156, 9, 0.733);
 }
 
 img {

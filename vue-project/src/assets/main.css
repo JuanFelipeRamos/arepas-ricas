@@ -8,7 +8,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   color: white;
   position: relative;
   z-index: 0;
@@ -21,4 +21,10 @@ body::before {
   inset: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-attachment: fixed;
+  }
 }

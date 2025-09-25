@@ -123,4 +123,25 @@ strong {
     color: white;
 }
 
+@media (max-width: 768px) {
+  .containerContactos {
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .contactos {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .txt p, .txt2 p {
+    font-size: 20px;
+  }
+
+  .imgLogo {
+    width: 250px;
+  }
+}
+
 </style>

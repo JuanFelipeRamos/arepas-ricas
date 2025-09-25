@@ -212,4 +212,54 @@ a {
   margin-bottom: 43px;
 }
 
+@media (max-width: 768px) {
+  .containerWelcome {
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .textos {
+    margin-bottom: 20px;
+  }
+
+  .txt {
+    justify-content: center;
+  }
+
+  .txt p,
+  .txt2 p {
+    font-size: 20px;
+  }
+
+  .txtPequenio p {
+    font-size: 16px;
+  }
+
+  .imgLogo {
+    width: 250px;
+    margin-top: 15px;
+  }
+
+  .title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .txtProduct {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .verProducts {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
 </style>

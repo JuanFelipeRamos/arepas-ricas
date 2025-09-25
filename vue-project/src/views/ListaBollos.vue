@@ -32,7 +32,7 @@ import Footer from '@/components/Footer.vue';
   display: flex;
   padding: 10px 40px;
   flex-direction: column;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 h2 {
