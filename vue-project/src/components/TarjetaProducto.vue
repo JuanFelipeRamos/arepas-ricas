@@ -29,7 +29,7 @@ defineProps({
 .container {
     display: flex;
     flex-direction: column;
-    background-color: rgba(126, 106, 7, 0.5);
+    background-color: rgba(126, 106, 7, 0.822);
     width: 235px;
     padding: 20px;
     justify-content: center;
@@ -42,7 +42,7 @@ defineProps({
 
 .container:hover {
     width: 237px;
-    background-color: rgba(185, 156, 9, 0.733);
+    background-color: rgba(185, 156, 9, 0.781);
 }
 
 img {
@@ -57,6 +57,10 @@ img {
     justify-content: center;
     align-items: center;
     color: black;
+}
+
+h2, p {
+    font-weight: bold;
 }
 
 </style>

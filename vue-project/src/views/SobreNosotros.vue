@@ -92,9 +92,12 @@ h1, p {
 }
 
 @media (max-width: 768px) {
+  .title {
+    margin-top: 38px;
+  }
   .title h1 {
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
     padding: 0 15px;
   }
 
@@ -103,7 +106,7 @@ h1, p {
   }
 
   .parrafo p {
-    font-size: 0.95rem;
+    font-size: 0.80rem;
     line-height: 1.5rem;
   }
 }
@@ -111,7 +114,7 @@ h1, p {
 @media (max-width: 480px) {
   .title h1 {
     font-size: 1.2rem;
-    line-height: 1.6rem;
+    line-height: 1.4rem;
     padding: 0 10px;
   }
 
