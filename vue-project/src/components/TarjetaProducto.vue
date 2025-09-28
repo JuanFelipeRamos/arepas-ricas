@@ -63,4 +63,22 @@ h2, p {
     font-weight: bold;
 }
 
+@media (max-width: 618px) {
+  .container {
+    width: 200px;
+  }
+
+  .container:hover {
+    width: 202px;
+  }
+
+  img {
+    width: 160px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
 </style>

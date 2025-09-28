@@ -106,7 +106,7 @@ h1, p {
   }
 
   .parrafo p {
-    font-size: 0.80rem;
+    font-size: 0.78rem;
     line-height: 1.5rem;
   }
 }
